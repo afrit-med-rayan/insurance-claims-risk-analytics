@@ -1,0 +1,48 @@
+# data files
+data/raw/*.csv
+data/raw/*.arff
+data/processed/*.csv
+data/processed/*.parquet
+
+# environment
+.env
+*.env.local
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# power bi
+dashboard/*.pbix
+
+# models
+*.pkl
+*.joblib
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# project management
+project_brief_insurance_analytics.md
+
+# generated outputs that may contain sensitive data
+reports/genai_examples.md
