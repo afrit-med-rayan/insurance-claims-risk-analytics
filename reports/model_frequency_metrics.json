@@ -1,0 +1,5 @@
+{
+    "baseline_poisson_deviance": 0.35593296975304983,
+    "lgbm_poisson_deviance": 0.34526423609022,
+    "improvement_pct": 2.9973996705705335
+}

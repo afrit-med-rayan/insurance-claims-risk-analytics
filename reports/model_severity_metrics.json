@@ -1,0 +1,11 @@
+{
+    "baseline": {
+        "gamma_deviance": 1.5029459630267328,
+        "log_mae": 1.0177908684103898
+    },
+    "lgbm": {
+        "gamma_deviance": 1.566092246764159,
+        "log_mae": 0.8465971290432109
+    },
+    "improvement_pct_deviance": -4.201500605534609
+}
