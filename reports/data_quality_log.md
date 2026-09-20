@@ -1,8 +1,6 @@
 
 # Data Quality Log
 
-Generated: 2026-09-19 01:32
-
 Dataset: freMTPL2freq + freMTPL2sev (merged)
 Initial shape: 678,013 rows x 13 columns
 

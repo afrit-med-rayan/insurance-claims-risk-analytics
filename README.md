@@ -73,6 +73,8 @@ To ensure our LightGBM model is interpretable for regulatory compliance, we appl
 </div>
 
 ## 6. Key Findings
+For detailed logs and complete EDA insights, please refer to the [Data Quality Log](reports/data_quality_log.md) and [Full Findings Report](reports/findings.md).
+
 * **Bonus-Malus** is the strongest predictor of claim frequency, validating its use in the French market. Higher scores (worse driving records) strongly drive up predicted frequency.
 * **Young Drivers (18-25)** exhibit substantially higher claim frequencies than older cohorts.
 * **Urban Concentration**: Region R11 has one of the highest claim rates despite its large exposure, suggesting a high-risk metropolitan effect (likely Paris).
