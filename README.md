@@ -54,8 +54,8 @@ The repository includes a Natural Language query assistant powered by Ollama (or
 
 ## 4. Data Source
 The dataset used is the **freMTPL2** dataset, a standard actuarial benchmark containing risk features and claim records for 678,000 motor insurance policies in France. Originally compiled for the [CASdatasets package in R](http://cas.uqam.ca/), it is widely used in actuarial pricing literature.
-* `freMTPL2freq`: Policy characteristics (exposure, vehicle power, driver age, bonus-malus) and claim counts.
-* `freMTPL2sev`: Individual claim amounts.
+* [`freMTPL2freq`](https://www.openml.org/search?type=data&sort=runs&id=41214&status=active): Policy characteristics (exposure, vehicle power, driver age, bonus-malus) and claim counts.
+* [`freMTPL2sev`](https://www.openml.org/search?type=data&sort=runs&id=41215&status=active): Individual claim amounts.
 
 ## 5. Machine Learning and Explainability
 We benchmark simple Generalized Linear Models (GLMs) against advanced LightGBM gradient boosting models to predict both the frequency and severity of claims.
