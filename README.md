@@ -26,7 +26,7 @@ The dataset is the **freMTPL2** dataset, a standard actuarial benchmark containi
 ## Key Findings
 - **Bonus-Malus** is the strongest predictor of claim frequency, validating its use in the French market.
 - **Young Drivers (18-25)** exhibit substantially higher claim frequencies than older cohorts.
-- **Urban Concentration**: Regions R82 and R24 have the highest claim rates.
+- **Urban Concentration**: Region R11 has one of the highest claim rates despite its large exposure, suggesting a high-risk metropolitan effect.
 - **Vehicle Power**: Mid-to-high power vehicles (categories 9+) show elevated risk.
 - **Severity**: Claim amounts are highly right-skewed, requiring log-transformations and Gamma distributions for accurate modeling.
 

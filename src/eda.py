@@ -52,8 +52,8 @@ def plot_freq_by_region(df: pd.DataFrame) -> None:
     _write_finding(
         "Claim Frequency by Region",
         """
-        Regions R82 and R24 show the highest claim frequencies, well above the portfolio 
-        average. This suggests potential urban concentration or regional risk factors that 
+        Region R11 stands out with one of the highest claim frequencies despite having a large exposure volume, 
+        suggesting significant urban concentration (like the Paris area) or regional risk factors that 
         warrant a territorial pricing multiplier. Conversely, regions like R73 and R53 
         exhibit much lower risk profiles.
         """

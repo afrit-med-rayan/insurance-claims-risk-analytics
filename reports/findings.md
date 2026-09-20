@@ -2,8 +2,8 @@
 
 ### Claim Frequency by Region
 
-Regions R82 and R24 show the highest claim frequencies, well above the portfolio 
-average. This suggests potential urban concentration or regional risk factors that 
+Region R11 stands out with one of the highest claim frequencies despite having a large exposure volume, 
+suggesting significant urban concentration (like the Paris area) or regional risk factors that 
 warrant a territorial pricing multiplier. Conversely, regions like R73 and R53 
 exhibit much lower risk profiles.
 
@@ -50,15 +50,4 @@ The vehicle mix is split fairly evenly between Regular and Diesel fuel types.
 Vehicle brands B1 and B2 dominate the book. These volumetric imbalances suggest 
 that while some segments have deep data for pricing, rarer segments (e.g., brand B14) 
 may suffer from high variance in claims experience.
-
-### SHAP Explainability (Frequency Model)
-
-SHAP analysis reveals that BonusMalus is overwhelmingly the strongest predictor of claim frequency, 
-validating its central role in French MTPL pricing. The beeswarm plot shows a clear positive 
-correlation: higher BonusMalus strongly drives up predicted frequency. 
-
-Other top risk drivers include:
-- **VehPower**: High power categories increase risk, while low power reduces it.
-- **DrivAge**: Consistent with EDA, young drivers significantly push predictions higher.
-- **Area**: Urban areas (like Area F) exhibit positive SHAP values compared to rural areas.
 
